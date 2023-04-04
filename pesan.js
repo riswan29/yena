@@ -8,7 +8,7 @@ $(document).on('click', '.send', function () {
 
     /* Pengaturan Whatsapp */
     var walink = 'https://web.whatsapp.com/send',
-        phone = '6285925749600',
+        phone = '6281212133696',
         text = 'Halo, saya ingin memesan layanan antar jemput. Berikut rincian pesanannya: ',
         text_yes = 'Pesanan Anda berhasil terkirim.',
         text_no = 'Isilah formulir terlebih dahulu.';
