@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Jewel Theme">
+        <meta name="description" content="Wheel - Responsive and Modern Car Rental Website Template">
+        <meta name="keywords" content="">
+        <title>YENA TRANS TRAVEL - BANDUNG SORKARNO HATTA</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <!-- reset css -->
+        <link rel="stylesheet" type="text/css" href="assets/css/css_reset.css">
+        <!-- bootstrap -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.datetimepicker.min.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+        <!-- preload -->
+        <link rel="stylesheet" type="text/css" href="assets/css/loaders.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+        <script src="assets\js\jquery-2.2.4.min.js"></script>
+
+        <!--[if lt IE 9]>
+        <script src="assets/js/html5shiv.min.js"></script>
+        <script src="assets/js/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body class="">
+        <!-- MAIN -->
+        <div class="load-wrap">
+            <div class="wheel-load">
+                <img src="images/loader.gif" alt="" class="image">
+            </div>
+        </div>
+        <div class="wheel-menu-wrap ">
+            <div class="container-fluid wheel-bg1">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="wheel-logo">
+                            <a href="index.html"><img src="assets/img/ss.jpeg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 col-xs-12 padd-lr0">
+                        <div class="wheel-top-menu clearfix">
+                            <div class="wheel-top-menu-info">
+                                <div class="top-menu-item"><a href="#"><i class="fa fa-phone"></i><span>(+62) 812 1213 3696</span></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9 ">
+                        <div class="wheel-navigation">
+                            <nav id="dl-menu">
+                                <!-- class="dl-menu" -->
+                                <ul class="main-menu dl-menu">
+                                    <li class="menu-item   current-menu-parent menu-item-has-children   active-color ">
+                                        <a href="#">Beranda</a>
+                                    </li>
+                                    <li class="menu-item current-menu-parent menu-item-has-children  ">
+                                        <a href="#layanan"> Layanan </a>
+                                    </li>
+                                    <li class="menu-item   ">
+                                        <a href="#mobil">Mobil Kita</a>
+                                    </li>
+                                </ul>
+                                <div class="nav-menu-icon"><i></i></div>
+                            </nav>
+                            <a href="#pesan" class="wheel-cheader-but">Pesan Sekarang</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wheel-start">
+            <img src="images/bg1.jpg" alt="" class="wheel-img">
+            <div class="container padd-lr0">
+                <div class="col-lg-6 col-lg-push-6 ">
+                    <header class="wheel-header marg-lg-b100 marg-lg-t200  marg-md-b0 marg-md-t0">
+                        <h1>Yena Trans Travel  </h1>
+                        <h2>Bandung - Soekarno Hatta</h2>
+                    </header>
+                </div>
+                <div class="col-lg-6 col-lg-pull-6  padd-lr0" id="pesan">
+                    <div class="wheel-start-form">
+                        <form action="#">
+                            <label for="input-val11"><span>Tujuan</span>
+                            <input type="text" id='tujuan' placeholder="Lokasi Bandara" required>
+                            </label>
+                            <label for="input-val12"><span>Penjemputan</span>
+                            <input type="text" id='penjemputan' placeholder="Jl, Kota, Alamat Detail" required>
+                            </label>
+                            <div class="clearfix">
+                                <div class="wheel-date">
+                                    <span>Tanggal Penjemputan</span>
+                                    <label for="input-val13" class="fa fa-calendar">
+                                    <input  class="datetimepicker" id='tanggal' type="text" value="29 Apr">
+                                    </label>
+                                </div>
+                                <div class="wheel-date ">
+                                    <span>Waktu Jemput</span>
+                                    <label for="input-val14" class="fa fa-clock-o">
+                                    <input class="timepicker" id='waktu' type="text" value="18:00">
+                                    </label>
+                                </div>
+                                <div class="wheel-date">
+                                    <span>Jumlah Penumpang</span>
+                                    <select class="selectpicker">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <button class="wheel-btn send btn btn-success send" id="psan">Pesan</button>
+                            </label>
+                            <!-- <div class="form-group button-area">
+                                <button class="btn btn-success send">Pesan via WhatsApp</button>
+                            </div> -->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ////////////////////////////////////////////////////////////// -->
+        <div class="wheel-bg2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="wheel-header text-center marg-lg-t140 marg-lg-b340 marg-md-t140 marg-md-b140 marg-sm-t70 ">
+                            <h5 id="layanan">Layanan Pemesanan</h5>
+                            <h3>Mobil <span>Rental</span>  Bandung</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wheel-clients">
+            <div class="container padd-lr0">
+                <div class="row">
+                    <div class="col-md-4 padd-r0 padd-md-lr15">
+                        <div class="wheel-service-item text-center wheel-bg3">
+                            <div class="wheel-service-logo">
+                                <img src="images/ico1.png" alt="">
+                            </div>
+                            <h5>Paling Terjangkau</h5>
+                            <p>Kami tawarkan rental mobil terjangkau dan berkualitas dengan layanan pelanggan 24/7, mobil terawat, dan pengemudi berpengalaman</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 padd-lr0 padd-md-lr15">
+                        <div class="wheel-service-item text-center wheel-service-active wheel-bg4">
+                            <div class="wheel-service-logo">
+                                <img src="images/ico2.png" alt="">
+                            </div>
+                            <h5>Rating Terbaik</h5>
+                            <p>Rental mobil terbaik dengan rating tinggi, opsi kendaraan yang sesuai, harga terjangkau, dan layanan pelanggan berkualitas. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 padd-l0 padd-md-lr15">
+                        <div class="wheel-service-item  text-center wheel-bg5">
+                            <div class="wheel-service-logo">
+                                <img src="images/ico3.png" alt="">
+                            </div>
+                            <h5>Excellent Service</h5>
+                            <p>Jangan ragu untuk mempercayakan kebutuhan rental mobil Anda kepada kami, karena kami menawarkan Excellent Service dan opsi kendaraan yang sesuai. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 ">
+                    <div class="wheel-service-img">
+                        <img src="assets/img/3-removebg-preview.png" alt="" class="wheel-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /////////////////////////////////////////////////// -->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="wheel-header wheel-testi-header text-center marg-lg-t155 marg-lg-b65 marg-md-t50  marg-md-b50">
+                        <h3>Misi Kami Adalah <span>Kepuasan</span> Penumpang</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="wheel-testimonial text-center">
+                        <p>Misi kami adalah memberikan kepuasan penumpang dengan rental mobil berkualitas tinggi, harga terjangkau, dan Excellent Service. Pesan sekarang untuk pengalaman berkendara yang tak terlupakan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /////////////////////////////////////////////////////////// -->
+        <div class="wheel-collection wheel-bg2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="wheel-header text-center marg-lg-t140 marg-lg-b65  marg-md-t50 ">
+                            <h5>kami menyediakan layanan  </h5>
+                            <h3>dengan koleksi mobil <span>yang nyaman</span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="mobil">
+                    <div class="col-lg-12 ">
+                        <div class="tabs">
+                            <div class="tabs-header">
+                                <ul>
+                                    <li class="active"><a href="#mobil">Mobil kita</a></li>
+                                </ul>
+                            </div>
+                            <div class="tabs-content  marg-lg-b30">
+                                <div class="tabs-item active ">
+                                    <div class="swiper-container" data-autoplay="0" data-touch="1" data-mouse="0" data-xs-slides="1" data-sm-slides="2" data-md-slides="4" data-lg-slides="6" data-add-slides="6" data-slides-per-view="responsive" data-loop="1" data-speed="1000">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='INNOVA' data-carClass='Yena Trans Travel' data-price='$100' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='assets/img/m1.jpeg'><img src="images/i4.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='AVANZA' data-carClass='Yena Trans Travel' data-price='$100' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='assets/img/m2.jpeg'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='TOYOTA HAICE' data-carClass='Yena Trans Travel' data-price='$100'  data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='assets/img/m3.jpeg'><img src="images/i2.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-arrow-left fa fa-angle-left"></div>
+                                        <div class="swiper-arrow-right fa fa-angle-right"></div>
+                                        <div class="pagination"></div>
+                                    </div>
+                                </div>
+                                <div class="tabs-item  ">
+                                    <div class="swiper-container" data-autoplay="0" data-touch="1" data-mouse="0" data-xs-slides="1" data-sm-slides="2" data-md-slides="4" data-lg-slides="6" data-add-slides="6" data-slides-per-view="responsive" data-loop="1" data-speed="1000">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='2016 Nissan Juke' data-carClass='Luxury Sports Car' data-price='$100'  data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/z-car-1.png'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='2016 Chevrolet Malibu' data-carClass='Luxury Sports Car' data-price='$100'  data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/i32.jpg'><img src="images/i5.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Bugatti Veyron' data-carClass='Luxury Sports Car' data-price='2'  data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/i33.jpg'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='2016 Audi S4' data-carClass='Luxury Sports Car' data-price='$10' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/i34.jpg'><img src="images/i4.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='2017 Hyundai Santa Fe' data-carClass='Luxury Sports Car' data-price='4' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/i36.jpg'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Porsche Boxter Spyder' data-carClass='Luxury Sports Car' data-price='4' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/i37.jpg'><img src="images/i2.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-arrow-left fa fa-angle-left"></div>
+                                        <div class="swiper-arrow-right fa fa-angle-right"></div>
+                                        <div class="pagination"></div>
+                                    </div>
+                                </div>
+                                <div class="tabs-item  ">
+                                    <div class="swiper-container" data-autoplay="0" data-touch="1" data-mouse="0" data-xs-slides="1" data-sm-slides="2" data-md-slides="4" data-lg-slides="6" data-add-slides="6" data-slides-per-view="responsive" data-loop="1" data-speed="1000">
+                                        <div class="swiper-wrapper">
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='2016 Nissan Juke' data-carClass='Luxury Sports Car' data-price='$100' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/z-car-1.png'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='2016 Chevrolet Malibu' data-carClass='Luxury Sports Car' data-price='$100' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/i32.jpg'><img src="images/i5.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Bugatti Veyron' data-carClass='Luxury Sports Car' data-price='2' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/i33.jpg'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='2016 Audi S4' data-carClass='Luxury Sports Car' data-price='$10' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/i34.jpg'><img src="images/i4.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='2017 Hyundai Santa Fe' data-carClass='Luxury Sports Car' data-price='4' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/i36.jpg'><img src="images/i3.png" alt=""></div>
+                                            </div>
+                                            <div class="swiper-slide">
+                                                <div class="wheel-collection-item" data-name='Porsche Boxter Spyder' data-carClass='Luxury Sports Car' data-price='4' data-text='Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsu nec sagittis sem nibh id elit.' data-bags='2 Bags' data-passenger='2 PASSENGERS' data-speed='5.6/100 MPG' data-img='images/i37.jpg'><img src="images/i2.png" alt=""></div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-arrow-left fa fa-angle-left"></div>
+                                        <div class="swiper-arrow-right fa fa-angle-right"></div>
+                                        <div class="pagination"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 padd-lr0">
+                        <div class="wheel-collection-info">
+                            <div class="wheel-collection-text">
+                                <h4 class="car-name">INNOVA</h4>
+                                <span class="car-class">Yena Trans Travel</span>
+                                <h5><b>Rp.250.<sup>000</sup></b>/Org</h5>
+                                <a href="#" class="wheel-btn">Pesan</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-7 padd-lr0">
+                        <div class="wheel-collection-img"><img src="assets/img/m1.jpeg" alt="" class="car-img"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <!-- ///////////////// -->
+        <footer class="wheel-footer">
+            <img src="images/bg4.jpg" alt="" class="wheel-img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3  col-sm-6  padd-lr0">
+                        <div class="wheel-address">
+                            <div class="wheel-footer-logo"><a href="#"><img src="assets/img/tit-removebg-preview.png" alt=""></a></div>
+                            <ul>
+                                <li><span><i class="fa fa-map-marker"></i>Jln cilengkrang 2
+                                    Kel.Palasari , Kota Bandung <br>
+                                    ZIP 45016, Jawa Barat  </span>
+                                </li>
+                                <li><a href="#"><span><i class="fa fa-phone"></i> (+62) 812 1213 3696</span></a></li>
+                            </ul>
+                            <div class="wheel-soc">
+                                <a href="#" class="fa fa-twitter"></a>
+                                <a href="#" class="fa fa-facebook"></a>
+                                <a href="#" class="fa fa-linkedin"></a>
+                                <a href="#" class="fa fa-instagram"></a>
+                                <a href="#" class="fa fa-share-alt"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6  padd-lr0">
+                        <div class="wheel-footer-item">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li><a href="#" class="">BERANDA</a></li>
+                                <li><a href="#" class="">LAYANAN</a></li>
+                                <li><a href="#" class="">MOBIL KITS</a></li>
+                                <li><a href="#" class="">PESAN</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-6  padd-lr0">
+                        <div class="wheel-footer-item ">
+                            <h3>Vehicles</h3>
+                            <ul>
+                                <li><a href="#" class="">INNOVA</a></li>
+                                <li><a href="#" class="">TOYOTA HAICE</a></li>
+                                <li><a href="#" class="">AVANZA</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="wheel-footer-info wheel-bg6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-sm-6  padd-lr0"><span>&#169; YENA 2023 | YENA TRANS TRAVEL BANDUNG - SOEKARNO HATTA</span></div>
+                    <div class="col-lg-4 col-sm-6 padd-lr0">
+                        <ul>
+                            <li><a href="#">BERANDA</a></li>
+                            <li><a href="#layanan"> LAYANAN</a></li>
+                            <li><a href="#mobil"> MOBIL KITA</a></li>
+                            <li><a href="#pesan"> PESAN</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Scripts project -->
+        <script type="text/javascript" src="pesan.js"></script>
+        <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="assets/js/jquery-2.2.4.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <!-- count -->
+        <script type="text/javascript" src='assets/js/jquery.countTo.js'></script>
+        <!-- google maps -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBt5tJTim4lOO3ojbGARhPd1Z3O3CnE-C8" type="text/javascript"></script>
+        <!-- swiper -->
+        <script type="text/javascript" src="assets/js/idangerous.swiper.min.js"></script>
+        <script type="text/javascript" src="assets/js/equalHeightsPlugin.js"></script>
+        <script type="text/javascript" src="assets/js/jquery.datetimepicker.full.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script type="text/javascript" src="assets/js/bootstrap-select.min.js"></script>
+        <script type="text/javascript" src="assets/js/index.js"></script>
+        <!-- sixth block end -->
+    </body>
+
+</html>
